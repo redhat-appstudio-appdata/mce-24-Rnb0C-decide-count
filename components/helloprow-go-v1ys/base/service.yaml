@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: helloprow-go-v1ys
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: helloprow-go-v1ys
+    app.kubernetes.io/part-of: mce-24
+  name: helloprow-go-v1ys
+  namespace: red-hat-acm-tenant
+spec:
+  ports:
+  - port: 4321
+    targetPort: 4321
+  selector:
+    app.kubernetes.io/instance: helloprow-go-v1ys
+status:
+  loadBalancer: {}
