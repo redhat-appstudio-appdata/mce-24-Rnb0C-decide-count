@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   name: helloprow-go-wcoc
-  namespace: red-hat-acm-tenant
 spec:
   replicas: 1
   selector: {}
