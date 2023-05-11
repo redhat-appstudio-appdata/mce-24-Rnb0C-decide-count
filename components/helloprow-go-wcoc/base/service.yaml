@@ -9,7 +9,6 @@ metadata:
     app.kubernetes.io/name: helloprow-go-wcoc
     app.kubernetes.io/part-of: mce-24
   name: helloprow-go-wcoc
-  namespace: red-hat-acm-tenant
 spec:
   ports:
   - port: 4321
