@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: kube-rbac-proxy
     app.kubernetes.io/part-of: mce-24
-  name: kube-rbac-proxyevqe
+  name: kube-rbac-proxyl7ed
 spec:
   port:
     targetPort: 8080
