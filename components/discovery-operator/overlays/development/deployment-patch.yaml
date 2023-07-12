@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: discovery-operator
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/red-hat-acm-tenant/mce-24/discovery-operator@sha256:26609b48bb344b68343ec5cd9395122523c12b38aaa6eee5f829c50863b85523
+        name: container-image
+        resources: {}
+status: {}
